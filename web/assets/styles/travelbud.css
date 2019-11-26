@@ -1,0 +1,122 @@
+html, body {
+    height: 100%;
+}
+
+html, body, input, textarea, button {
+    /*-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    */
+    color: blue;
+}
+
+/**
+* Header CSS
+*/
+
+header {
+    position: fixed;
+    margin: 25px;
+    top: 0;
+    right: 0;
+    left: 0;
+    /*z-index: 2;*/
+    background-image: url("background.jpg");
+    border: 10px solid white;
+}
+
+header ul.mui-list--inline {
+    margin-bottom: 0;
+}
+
+header a {
+    color: blue;
+    font: 24px impact;
+}
+
+header table {
+    width: 100%;
+}
+
+header li {
+    color: blue;
+    font: 24px impact;
+}
+
+/**
+* Content CSS
+*/
+
+#content-wrapper {
+    min-height: 100%;
+    /* sticky footer */
+    box-sizing: border-box;
+    margin-bottom: -100px;
+    padding-bottom: 100px;
+    background-image: url("background.jpg");
+    border: 10px solid white;
+    font: 48px impact;
+    color: blue;
+}
+
+/**
+* Footer CSS
+*/
+
+footer {
+    box-sizing: border-box;
+    height: 100px;
+    background-image: url("background.jpg");
+    border: 10px solid white;
+    padding-top: 35px;
+    font: 24px impact;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile {
+    border-radius: 50%
+}
+
+/**
+* Sign In Page
+*/
+
+.sign-in-container {
+    width: 40em;
+    height: 40em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 10% 0;
+}
+
+.sign-out-snackbar {
+    min-width: 500px;
+    min-height: 50px;
+    margin-left: -250px;
+    background-color: rgb(194, 243, 184);
+    color: rgb(2, 2, 2);
+    text-align: center;
+    border-radius: 2px;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 30px;
+}
+
+.pull-right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}

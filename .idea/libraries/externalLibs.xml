@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="externalLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/externalLibs/hibernate-validator-annotation-processor-4.2.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/cglib-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/mysql-connector-java-8.0.18.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/jboss-logging-3.0.1.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/jboss-transaction-api_1.1_spec-1.0.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/jta-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/javassist-3.12.0.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/antlr-2.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/hibernate-jpa-2.0-api-1.0.1.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/c3p0-0.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/validation-api-1.0.0.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/hibernate-commons-annotations-4.0.1.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/commons-collections-3.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/standard.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/slf4j-api-1.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/commons-beanutils-1.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/hibernate-validator-4.2.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalLibs/hibernate-core-4.1.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
