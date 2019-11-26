@@ -159,7 +159,7 @@
 
                     <td class="mui--text-right">
                         <ul class="mui-list--inline mui--text-body2">
-                            <li><a href="index.html">home</a></li>
+                            <li><a href="#">home</a></li>
                             <li><a href="#">log out</a></li>
                         </ul>
                     </td>
