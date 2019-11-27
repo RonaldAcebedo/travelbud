@@ -23,7 +23,7 @@
               <img src="../assets/images/logo.png" width="120" height="100" alt="logo" />
             </div>
             <div class="input-field col s6">
-              <input placeholder="Placeholder" id="email" type="text" class="validate">
+              <input placeholder="email" id="email" type="text" class="validate">
               <label for="email">Email</label>
             </div>
             <div class="input-field col s6">

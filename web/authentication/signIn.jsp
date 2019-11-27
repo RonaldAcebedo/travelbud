@@ -13,7 +13,7 @@
 
 <body>
   <div class="sign-in-container">
-    <form action="AuthenticationController" method="post">
+    <form action="AuthController">
       <div class="card grey lighten-3">
         <div class="card-content black-text">
           <span class="card-title">Travel Bud</span>
@@ -22,16 +22,16 @@
               <img src="../assets/images/logo.png" width="120" height="100" alt="logo" />
             </div>
             <div class="input-field col s6">
-              <input placeholder="Placeholder" id="email" type="text" class="validate">
+              <input placeholder="email" id="email" name="email" type="text" class="validate" value="${authHelper.data.email}">
               <label for="email">Email</label>
             </div>
             <div class="input-field col s6">
-              <input id="password" type="password" class="validate">
+              <input id="password" type="password" name="password" class="validate" value="${authHelper.data.password}">
               <label for="password">Password</label>
             </div>
           </div>
           <div class="card-action pull-right">
-            <button class="btn waves-effect waves-light" type="submit" name="action">Sign In
+            <button class="btn waves-effect waves-light" type="submit">Sign In
               <i class="material-icons right">send</i>
             </button>
           </div>
